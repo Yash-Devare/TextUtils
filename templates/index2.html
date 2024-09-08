@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TextUtils</title>
+</head>
+<body>
+<h1>Welcome to text analyzer website</h1> 
+<form action='/analyze' method="get">
+    <!-- python manage.py runserver -->
+    <textarea name='text' style="width: 1480px; height: 152px;"> </textarea> <br>
+    <input type="checkbox" name="removepunc"> Remove Punctuations 
+    <button type="submit"> Analyze Text </button> <br>
+    <input type="checkbox" name="fullcaps"> UPPERCASE
+    <button type="submit"> Capitalize Text </button> <br>
+    <input type="checkbox" name="newlineremover"> NewLineRemover
+    <button type="submit"> NewLineRemover </button><br>
+    <input type="checkbox" name="extraspaceremover"> Extra space Remover
+    <button type="submit"> Extra Space Remover </button><br>
+    <input type="checkbox" name="charactercount"> Charactercount
+    <button type="submit"> CharacterCount </button>
+</form>
+</body>
+</html> 
